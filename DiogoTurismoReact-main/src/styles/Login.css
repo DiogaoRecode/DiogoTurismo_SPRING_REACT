@@ -1,0 +1,58 @@
+.login {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+
+}
+
+.redeSocial svg {
+  color: white;
+  margin: 20px;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+
+.login_form{
+  background: rgba(0,0,205, 0.5);
+  display:flex;
+  flex-direction:column;
+}
+
+.login_form > h1{
+  font-size: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  letter-spacing: -1px;
+  background: rgba(0,0,0, 1.2);
+}
+
+.login_form> input {
+  min-width:380px;
+ padding: 20px 0;
+padding-left: 15px;
+margin-bottom: 10px;
+outline: none;
+border: 1px solid  black;
+font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+border-radius: 2px;
+font-size: 15px;
+}
+
+.submit_btn{
+  color:chartreuse;
+  padding: 17px 30px;
+  margin-top: 25px;
+  background:rgba(0,0,0, 1.2);
+  border: 1px solid white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
